@@ -8,18 +8,18 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 const HOME_FAQS: AccordionItem[] = [
   {
     question: 'What services are available?',
-    answer: 'Ask about roof repairs and other roofing services. Call to discuss your roof and the work required.',
+    answer: 'Ask about plumbing, shower installation and property maintenance. Call to discuss the work you need.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'What areas does Eddie’s Roofing service?',
-    answer: 'The team serves Shell Cove and surrounding areas from Shell Cove. Call to discuss your property and availability.',
+    question: 'What areas does Lenard Property Services serve?',
+    answer: 'Lenard Property Services is based in Erith. Call to check availability for your area.',
     relatedLink: { href: '/contact/', label: 'Contact our team →' },
   },
   {
-    question: 'How do I arrange a roof repair?',
-    answer: 'Call +61 431 721 599 to discuss your roof restoration, cleaning, painting, repointing or tile repair.',
-    relatedLink: { href: '/roof-restoration/', label: 'Explore our services →' },
+    question: 'How do I arrange plumbing or home improvement work?',
+    answer: `Call ${CLINIC_INFO.contact.phone} to discuss your property, the work you need and current availability.`,
+    relatedLink: { href: '/plumbing-services/', label: 'Explore our services →' },
   },
   {
     question: 'How do I request a quote?',

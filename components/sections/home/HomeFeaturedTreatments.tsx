@@ -8,30 +8,30 @@ export default function HomeFeaturedTreatments() {
     <section className="relative z-20 w-full bg-paper py-20 md:py-32 border-t border-mist overflow-hidden">
       <div className="max-w-site mx-auto px-6 md:px-12">
         <AnimateOnScroll animation="fade-up" duration={0.8} className="mb-16">
-          <span className="font-body text-13 text-[#151515] block mb-2 font-medium uppercase tracking-wider">Roofing services</span>
-          <h2 className="font-display text-33 md:text-41 text-[#151515]">Roofing services</h2>
+          <span className="font-body text-13 text-[#222222] block mb-2 font-medium uppercase tracking-wider">Our services</span>
+          <h2 className="font-display text-33 md:text-41 text-[#222222]">Plumbing and home improvements</h2>
         </AnimateOnScroll>
         <div className="flex flex-col space-y-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6 order-2 lg:order-1">
-              <span className="font-body text-13 text-[#151515] uppercase tracking-wider block mb-2 font-medium">Roofing</span>
-              <h3 className="font-display text-26 md:text-33 text-[#151515] mb-4">Roof restoration for your property</h3>
-              <p className="font-body text-15 md:text-17 text-[#151515]/80 leading-relaxed mb-6">Discuss roof cleaning, repairs, repointing and painting with the team.</p>
-              <div className="p-4 bg-[#F3F4F5] border-l-4 border-[#C8CDD1] mb-6 rounded-sm"><span className="font-body text-13 text-[#151515]/80"><strong className="text-[#151515] font-semibold">Before work begins:</strong> Call to discuss your property and arrange a suitable time.</span></div>
-              <Button href="/roof-restoration/" variant="ghost" size="md">Explore roofing</Button>
+              <span className="font-body text-13 text-[#222222] uppercase tracking-wider block mb-2 font-medium">Plumbing</span>
+              <h3 className="font-display text-26 md:text-33 text-[#222222] mb-4">Shower installation for your home</h3>
+              <p className="font-body text-15 md:text-17 text-[#222222]/80 leading-relaxed mb-6">Lenard fitted a new shower and customers praise the quality of the work and realistic timeframes.</p>
+              <div className="p-4 bg-[#F5F5F5] border-l-4 border-[#E5A900] mb-6 rounded-sm"><span className="font-body text-13 text-[#222222]/80"><strong className="text-[#222222] font-semibold">Before work begins:</strong> Call to discuss your property and arrange a suitable time.</span></div>
+              <Button href="/shower-installation/" variant="ghost" size="md">Explore shower installation</Button>
             </AnimateOnScroll>
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6 order-1 lg:order-2">
-              <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm"><Image src="/images/roof-repair.png" alt="Roofing project" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover object-top" /></div>
+              <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm"><Image src="/images/plumbing-repair.jpg" alt="Property services project" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover object-top" /></div>
             </AnimateOnScroll>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6"><div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm"><Image src="/images/roofb3-1.jpg" alt="Roofing project" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" /></div></AnimateOnScroll>
+            <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6"><div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm"><Image src="/images/plumbing-pipes.jpg" alt="Property services project" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" /></div></AnimateOnScroll>
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6">
-              <span className="font-body text-13 text-[#151515] uppercase tracking-wider block mb-2 font-medium">Roofing</span>
-              <h3 className="font-display text-26 md:text-33 text-[#151515] mb-4">Roof cleaning and repointing</h3>
-              <p className="font-body text-15 md:text-17 text-[#151515]/80 leading-relaxed mb-6">Ask about roof cleaning, repointing and the work your roof needs.</p>
-              <div className="p-4 bg-[#F3F4F5] border-l-4 border-[#C8CDD1] mb-6 rounded-sm"><span className="font-body text-13 text-[#151515]/80"><strong className="text-[#151515] font-semibold">Talk to our team:</strong> We will discuss the work and next steps with you.</span></div>
-              <Button href="/roof-repointing/" variant="ghost" size="md">Explore our services</Button>
+              <span className="font-body text-13 text-[#222222] uppercase tracking-wider block mb-2 font-medium">Home improvements</span>
+              <h3 className="font-display text-26 md:text-33 text-[#222222] mb-4">Plumbing and property repairs</h3>
+              <p className="font-body text-15 md:text-17 text-[#222222]/80 leading-relaxed mb-6">Get in touch to discuss plumbing, bathroom work or a repair around your home.</p>
+              <div className="p-4 bg-[#F5F5F5] border-l-4 border-[#E5A900] mb-6 rounded-sm"><span className="font-body text-13 text-[#222222]/80"><strong className="text-[#222222] font-semibold">Talk to our team:</strong> We will discuss the work and next steps with you.</span></div>
+              <Button href="/plumbing-services/" variant="ghost" size="md">Explore our services</Button>
             </AnimateOnScroll>
           </div>
         </div>

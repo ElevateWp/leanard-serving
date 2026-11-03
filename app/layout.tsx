@@ -11,19 +11,19 @@ import { BASE_URL, generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Eddie’s Roofing | Roof restoration',
+    default: 'Lenard Property Services | Plumbing and home improvements',
     template: '%s',
   },
   description:
-    'Eddie’s Roofing provides roof restoration, cleaning, painting, repointing and tile repairs in Shell Cove and surrounding areas. Call +61 431 721 599.',
+    'Lenard Property Services provides plumbing, shower installation and property maintenance in Erith. Call +44 7999 496889.',
   keywords: [
-    'Eddie’s Roofing',
-    'roof restoration Shell Cove',
-    'roof cleaning Shell Cove and surrounding areas',
-    'roof painting Shell Cove',
-    'roof repointing Sydney',
+    'Lenard Property Services',
+    'home improvement Erith',
+    'plumbing services Erith',
+    'bathroom installation Erith',
+    'property maintenance Erith',
   ],
-  authors: [{ name: 'Eddie’s Roofing' }],
+  authors: [{ name: 'Lenard Property Services' }],
   icons: {
     icon: [
       { url: '/favicon.png', type: 'image/png' },
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-AU" className="scroll-smooth">
+    <html lang="en-GB" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -50,7 +50,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F3F4F5] selection:text-[#151515]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F5F5F5] selection:text-[#222222]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

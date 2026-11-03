@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Eddie’s Roofing',
+  title: 'Lenard Property Services',
   description:
-    'Roof restoration, roof cleaning, painting, repointing and tile repairs in Shell Cove and surrounding areas. Call +61 431 721 599 to request a quote.',
+    'Plumbing, shower installation and property maintenance in Erith. Call +44 7999 496889 to request a quote.',
   pathname: '/',
 });
 
@@ -44,10 +44,10 @@ export default function HomePage() {
       {/* SECTION 2A: Customer reviews */}
       <HomeReviews />
 
-      {/* SECTION 3: Roofing services */}
+      {/* SECTION 3: Property services */}
       <PinnedHorizontalTrack
         items={serviceTrackItems}
-        title="Roofing services"
+        title="Property services"
       />
 
       {/* Signature Brand Device 2 of 4: Full-Bleed Section Divider */}
@@ -55,7 +55,7 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why choose Eddie’s Roofing Shell Cove and surrounding areas Shell Cove and surrounding areas */}
+      {/* SECTION 4: Why choose Lenard Property Services Erith and nearby areas Erith and nearby areas */}
       <HomeWhyUs />
 
       {/* SECTION 5: About the business */}
@@ -67,7 +67,7 @@ export default function HomePage() {
       {/* SECTION 7: Before & After (Draggable Slider - Orchestrated Moment 3) */}
       <HomeBeforeAfter />
 
-      {/* SECTION 9: Roofing services Projects */}
+      {/* SECTION 9: Property services Projects */}
       <HomeGallery />
 
       {/* SECTION 10: Frequently asked questions */}

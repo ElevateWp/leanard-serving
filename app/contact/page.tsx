@@ -9,9 +9,9 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Contact Eddie’s Roofing',
+  title: 'Contact Lenard Property Services',
   description:
-    'Call Eddie’s Roofing on +61 431 721 599 to discuss your roof.',
+    'Call Lenard Property Services on +44 7999 496889 to discuss your project.',
   pathname: '/contact/',
 });
 
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
                   Contact and quotes
                 </span>
-                <WordRevealH1 text="Contact Eddie’s Roofing." />
+                <WordRevealH1 text="Contact Lenard Property Services." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Call the Eddie’s Roofing team to discuss roof restoration, cleaning, painting, repointing, tile repairs and availability.
+                  Call Lenard Property Services to discuss plumbing, shower installations, bathroom work, property maintenance and availability.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                           {CLINIC_INFO.contact.phone}
                         </a>
                       </div>
-                      <span className="font-body text-13 text-forest font-medium">Roofing enquiries</span>
+                      <span className="font-body text-13 text-forest font-medium">Property services enquiries</span>
                     </div>
 
                     {/* Phone */}
@@ -110,7 +110,7 @@ export default function ContactPage() {
                     {CLINIC_INFO.primaryLocation.directions}
                   </address>
                   <div className="p-4 bg-mist/40 border-l-2 border-forest font-body text-13 text-forest-ink/80 leading-relaxed">
-                    Based in Shell Cove and serving Shell Cove and surrounding areas. Call to discuss availability.
+                    Based at Bramble Croft, Erith DA8 1BX. Call to check availability for your area.
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                       {CLINIC_INFO.name}
                     </h3>
                     <p className="font-body text-13 text-paper/80 leading-relaxed">
-                    Serving Shell Cove and surrounding areas from Shell Cove. Call to discuss your property.
+                    Serving Erith and nearby areas. Call to discuss your property.
                     </p>
                   </div>
 

@@ -18,7 +18,7 @@ export function createMetadata({
 }): Metadata {
   const url = `${BASE_URL}${pathname}`;
   const fullTitle = `${title} | ${CLINIC_INFO.name}`;
-  const defaultImage = `${BASE_URL}/images/eddies-roofing-logo.png`;
+  const defaultImage = `${BASE_URL}/lenard-property-services-logo.png`;
 
   return {
     title: fullTitle,
@@ -31,7 +31,7 @@ export function createMetadata({
       description,
       url,
       siteName: CLINIC_INFO.name,
-      locale: 'en_AU',
+    locale: 'en_GB',
       type: 'website',
       images: [
         {
@@ -110,7 +110,7 @@ export function generateServiceSchema(serviceName: string, description: string, 
     '@type': 'Service',
     name: serviceName,
     description: description,
-    serviceType: 'Roof repairs and roofing services',
+    serviceType: 'Plumbing, shower installation and property maintenance',
     url: `${BASE_URL}${url}`,
     provider: {
       '@type': 'GeneralContractor',
